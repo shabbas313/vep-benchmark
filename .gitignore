@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data - Never commit large data files directly!
+data/*
+!data/placeholder.txt # Exclude the placeholder from being ignored
+
+# IDEs
+.vscode/
+.idea/
