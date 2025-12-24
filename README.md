@@ -8,7 +8,7 @@ In this work, we benchmarked **29 *in-silico* variant effect predictors"" across
 
 ## Study Workflow
 
-![Study Workflow Figure](results/figures/Fig.1.tif)
+![Study Workflow Figure](results/figures/Fig.1.png)
 
 ## Repository contents
 
@@ -21,11 +21,11 @@ In this work, we benchmarked **29 *in-silico* variant effect predictors"" across
 | Preview | Figure | Description |
 |---|---|---|
 | ![Figure 1](results/figures/Fig.1.png) | **Fig. 1. Benchmarking workflow.** | Overview of dataset curation, standardized annotation, and evaluation across clinical and functional benchmarks. All variants were harmonized to **GRCh38** genome coordinates and annotated using a coordinate-based workflow. |
-| ![Figure 2](results/figures/Fig_2.png) | **Fig. 2. Missing prediction rates across ClinVar-derived benchmarks.** | Percentage of variants lacking prediction scores under the standardized GRCh38 coordinate-based annotation workflow. Missingness is not shown for the balanced ClinVar subset because it is a complete-case dataset by design. |
-| ![Figure 3](results/figures/Fig_3.png) | **Fig. 3. ROC curves across ClinVar-derived benchmarks.** | ROC curves for (A) primary ClinVar benchmark (December 2024; n = 51,891), (B) balanced complete-case subset (n = 5,906), and (C) temporal ClinVar validation dataset (January–May 2025; n = 1,372). |
-| ![Figure 4](results/figures/Fig_4.png) | **Fig. 4. AUROC by predictor category and dataset.** | Distribution of AUROC values stratified by methodological category across ClinVar-derived benchmarks. |
-| ![Figure 4](results/figures/Fig_5.png) | **Fig. 5. Predictor performance at author-recommended classification thresholds and stratified evaluation by allele frequency** | (A–C) Sensitivity and specificity for each predictor (D) AUROC for selected high-performing predictors stratified by gnomAD global allele frequency (AF) bins. AUROC is highest among singleton variants and generally decreases with increasing AF. AF-stratified results reflect both predictor behavior and AF-dependent label composition in ClinVar.  |
-| ![Figure 6](results/figures/Fig_6.png) | **Fig. 6. Clinical vs functional benchmarking in BRCA genes.** | Performance comparison on a *BRCA1/BRCA2* clinical benchmark and a *BRCA2* SGE functional benchmark. Panel (A) shows AUROC; panel (B) shows MCC at author-recommended thresholds. |
+| ![Figure 2](results/figures/Fig.2.png) | **Fig. 2. Missing prediction rates across ClinVar-derived benchmarks.** | Percentage of variants lacking prediction scores under the standardized GRCh38 coordinate-based annotation workflow. Missingness is not shown for the balanced ClinVar subset because it is a complete-case dataset by design. |
+| ![Figure 3](results/figures/Fig.3.png) | **Fig. 3. ROC curves across ClinVar-derived benchmarks.** | ROC curves for (A) primary ClinVar benchmark (December 2024; n = 51,891), (B) balanced complete-case subset (n = 5,906), and (C) temporal ClinVar validation dataset (January–May 2025; n = 1,372). |
+| ![Figure 4](results/figures/Fig.4.png) | **Fig. 4. AUROC by predictor category and dataset.** | Distribution of AUROC values stratified by methodological category across ClinVar-derived benchmarks. |
+| ![Figure 4](results/figures/Fig.5.png) | **Fig. 5. Predictor performance at author-recommended classification thresholds and stratified evaluation by allele frequency** | (A–C) Sensitivity and specificity for each predictor (D) AUROC for selected high-performing predictors stratified by gnomAD global allele frequency (AF) bins. AUROC is highest among singleton variants and generally decreases with increasing AF. AF-stratified results reflect both predictor behavior and AF-dependent label composition in ClinVar.  |
+| ![Figure 6](results/figures/Fig.6.png) | **Fig. 6. Clinical vs functional benchmarking in BRCA genes.** | Performance comparison on a *BRCA1/BRCA2* clinical benchmark and a *BRCA2* SGE functional benchmark. Panel (A) shows AUROC; panel (B) shows MCC at author-recommended thresholds. |
 
 ## Benchmark datasets
 Due to file size constraints, the full benchmark datasets are not hosted in this repository. All datasets are derived from publicly available sources described in the manuscript (ClinVar, gnomAD, CFTR2, and BRCA2 SGE). Where redistribution is restricted or where derived datasets are large, curated benchmark tables can be provided upon reasonable request.
