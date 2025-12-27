@@ -4,7 +4,7 @@
 
 This repository provides supplementary archive for the manuscript: **"Evaluating the Performance of Variant Effect Predictors: A Comprehensive Analysis Utilizing Clinical and High-throughput Functional Data"**. It includes analysis scripts and the figures/tables in the study.
 
-In this work, we benchmarked **29 *in-silico* variant effect predictors"" across multiple ClinVar-derived clinical benchmarks, gene-specific clinical datasets (*BRCA1/BRCA2* and *CFTR*), and a high-throughput functional benchmark from a *BRCA2* saturation genome-editing (SGE) study.
+In this work, we benchmarked **29 *in-silico* variant effect predictors** across multiple ClinVar-derived clinical benchmarks, gene-specific clinical datasets (*BRCA1/BRCA2* and *CFTR*), and a high-throughput functional benchmark from a *BRCA2* saturation genome-editing (SGE) study.
 
 ## Study Workflow
 
